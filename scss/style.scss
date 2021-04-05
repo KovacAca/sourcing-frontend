@@ -12,9 +12,24 @@ $transition: .5s ease;
 $boxShadow: 0 0 20px gray;
 
 body {
-    font-family: $fontFamily;
-    font-size: $fontSize;
+  font-family: $fontFamily;
+  font-size: $fontSize;
 }
-
+a {
+  color: $white;
+}
+a:hover {
+  color: $tertiaryColor;
+}
+/*************
+header
+**************/
+#home {
+  background: linear-gradient(rgba($black, .8), rgba($black, .8)), url(../img/header3.jpg);
+   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
   
 
