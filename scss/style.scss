@@ -14,12 +14,23 @@ $boxShadow: 0 0 20px gray;
 body {
   font-family: $fontFamily;
   font-size: $fontSize;
+  line-height: 1.7;
 }
 a {
   color: $white;
 }
 a:hover {
   color: $tertiaryColor;
+}
+h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+h2 {
+  color: $secondaryColor;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 /*************
 header
@@ -31,6 +42,60 @@ header
   background-position: center;
   height: 50vh;
 }
+/**********
+ about
+ **********/
+ #about {
+  margin-top: -100px;
+  .row:first-child {
+    background: $primaryColor;
+    h1 {
+      margin-top: -100px;
+    }
+  }
+  .row {
+    .col-md-4:first-child {
+      .card .card-body {
+        padding: 0;
+        div:first-child {
+         background: $secondaryColor;
+         padding: 30px;
+       }
+       div:last-child {
+         background: $lightGray;
+         padding: 30px;
+       }
+      }
+    }
+    .col-md-4:nth-child(2) {
+      .card .card-body {
+        padding: 0;
+        div:first-child {
+         background: $primaryColor;
+         padding: 30px;
+       }
+       div:last-child {
+         background: $secondaryColor;
+         padding: 30px;
+       }
+      }
+    }
+    .col-md-4:last-child {
+      margin-top: 96px;
+     .card .card-body {
+       padding: 0;
+       div:first-child {
+        background: $lightGray;
+        padding: 30px;
+      }
+      div:last-child {
+        background: $primaryColor;
+        padding: 30px;
+      }
+     }
+   }
+   }
+ } 
 /**********
  footer
  **********/
