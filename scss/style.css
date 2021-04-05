@@ -24,4 +24,11 @@ header
   height: 50vh;
 }
 
+/**********
+ footer
+ **********/
+footer {
+  background: url(../img/footer.jpg);
+}
+
 /*# sourceMappingURL=style.css.map */
