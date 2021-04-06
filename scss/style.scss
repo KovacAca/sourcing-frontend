@@ -176,6 +176,26 @@ header
    }
  }
 /**********
+ blog
+ **********/
+ #blog {
+   margin-top: 230px;
+   h4 {
+     color: $primaryColor;
+     font-size: 1.6rem;
+     font-weight: 500;
+   }
+   p {
+     margin-top: 20px;
+   }
+   hr {
+     background-color: $secondaryColor;
+     height: 1px;
+     width: 50px;
+     transform: translateX(-150px);
+   }
+ }
+/**********
  footer
  **********/
  footer {

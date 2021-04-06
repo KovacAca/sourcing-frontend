@@ -167,6 +167,27 @@ about_2
 }
 
 /**********
+ blog
+ **********/
+#blog {
+  margin-top: 230px;
+}
+#blog h4 {
+  color: #25235b;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+#blog p {
+  margin-top: 20px;
+}
+#blog hr {
+  background-color: #ee666c;
+  height: 1px;
+  width: 50px;
+  transform: translateX(-150px);
+}
+
+/**********
  footer
  **********/
 footer {
