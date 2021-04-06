@@ -27,6 +27,16 @@ h2 {
 }
 
 /*************
+nav
+**************/
+nav.stickyAdd {
+  transition: 0.5s ease;
+  background: rgba(37, 35, 91, 0.93);
+  padding: 15px;
+  box-shadow: 0 5px 10px 5px rgba(33, 37, 41, 0.1);
+}
+
+/*************
 header
 **************/
 #home {
@@ -84,6 +94,76 @@ header
 #about .row .col-md-4:last-child .card .card-body div:last-child {
   background: #25235b;
   padding: 30px;
+}
+
+/**********
+about_2
+**********/
+#about_2 {
+  background: url(../img/bg3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about_2 .col-md-6:last-child {
+  margin-top: 100px;
+}
+#about_2 .col-md-6:last-child .owl-carousel {
+  background: #ee666c;
+}
+#about_2 .col-md-6:last-child .owl-carousel .item {
+  padding: 60px 80px 20px 80px;
+}
+#about_2 p {
+  font-weight: 400;
+}
+#about_2 .col-md-3 div h3 {
+  margin-top: 100px;
+  transform: rotate(-90deg);
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+/**********
+ button
+ **********/
+#button {
+  margin-top: -250px;
+}
+#button button {
+  background-color: rgba(238, 102, 108, 0.6);
+  color: #fff;
+  padding: 8px 30px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  border: none;
+}
+
+/**********
+ work
+ **********/
+#work {
+  padding-top: 250px;
+}
+#work h3 {
+  font-size: 4.5rem;
+  font-weight: 800;
+  transform: rotate(-90deg);
+  margin-bottom: 15px;
+}
+#work h4 {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+#work p {
+  line-height: 1.3;
+  font-size: 0.9rem;
+}
+#work hr {
+  background-color: #ee666c;
+  height: 1px;
+  margin: 20px 0;
 }
 
 /**********
