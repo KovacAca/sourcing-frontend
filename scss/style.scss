@@ -32,16 +32,14 @@ h2 {
   text-transform: uppercase;
   font-weight: 800;
 }
-
 /*************
 nav
 **************/
 nav {
   &.stickyAdd {
     transition: $transition;
-    background: rgba($primaryColor, .93);
-    padding: 15px;
-    box-shadow: 0 5px 10px 5px rgba($black, .1);
+    background: rgba($primaryColor, .99);
+    box-shadow: 0 5px 10px 0 rgba($black, .5);
   }
 }
 /*************
@@ -141,12 +139,17 @@ header
  #button {
    margin-top: -250px;
    button {
-    background-color: rgba($secondaryColor, .6);
+    // background-color: rgba($secondaryColor, .6);
+    background-color: $secondaryColor;
+    opacity: .8;
     color: $white;
     padding: 8px 30px;
     font-size: 1.5rem;
     font-weight: 800;
     border: none;
+    &:hover {
+      opacity: 0.9;
+    }
    }
  }
 /**********
@@ -195,6 +198,26 @@ header
      transform: translateX(-150px);
    }
  }
+ /**********
+ education
+ **********/
+ #education {
+   margin-top: 230px;
+   button {
+    background-color: $secondaryColor;
+    color: $white;
+    padding: 8px 20px;
+    font-weight: 400;
+    border: none;
+   }
+   button:hover {
+     opacity: 0.9;
+   }
+   p {
+     margin-top: 20px;
+   }
+ }
+
 /**********
  footer
  **********/

@@ -31,9 +31,8 @@ nav
 **************/
 nav.stickyAdd {
   transition: 0.5s ease;
-  background: rgba(37, 35, 91, 0.93);
-  padding: 15px;
-  box-shadow: 0 5px 10px 5px rgba(33, 37, 41, 0.1);
+  background: rgba(37, 35, 91, 0.99);
+  box-shadow: 0 5px 10px 0 rgba(33, 37, 41, 0.5);
 }
 
 /*************
@@ -131,12 +130,16 @@ about_2
   margin-top: -250px;
 }
 #button button {
-  background-color: rgba(238, 102, 108, 0.6);
+  background-color: #ee666c;
+  opacity: 0.8;
   color: #fff;
   padding: 8px 30px;
   font-size: 1.5rem;
   font-weight: 800;
   border: none;
+}
+#button button:hover {
+  opacity: 0.9;
 }
 
 /**********
@@ -185,6 +188,26 @@ about_2
   height: 1px;
   width: 50px;
   transform: translateX(-150px);
+}
+
+/**********
+education
+**********/
+#education {
+  margin-top: 230px;
+}
+#education button {
+  background-color: #ee666c;
+  color: #fff;
+  padding: 8px 20px;
+  font-weight: 400;
+  border: none;
+}
+#education button:hover {
+  opacity: 0.9;
+}
+#education p {
+  margin-top: 20px;
 }
 
 /**********
